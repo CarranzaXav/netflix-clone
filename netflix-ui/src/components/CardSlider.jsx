@@ -35,7 +35,7 @@ export default React.memo(function CardSlider({ data, title }) {
     centerMode:true,
     centerPadding: "30px",
     swipeToSlide: true,
-    slidesToShow: 6, 
+    slidesToShow: 7, 
     slidesToScroll: 1,
     nextArrow: <CustomNextArrow />,
     prevArrow: <CustomPrevArrow />,
@@ -51,20 +51,26 @@ export default React.memo(function CardSlider({ data, title }) {
         }
       },
       {
-        breakpoint: 1100,
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          centerPadding: "20px",
-          // initialSlide: 2
+          slidesToShow:3,
+          slidesToScroll:1,
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          centerPadding: "10px",
+          centerPadding: "20px",
+        }
+      },
+      {
+        breakpoint: 430,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerPadding: "10px"
         }
       }
     ]
@@ -111,10 +117,6 @@ const Container = styled.div`
     margin-bottom:0;
     z-index: 0;
   }
-  /* h1:nth-child(1){
-    color:red;
-    margin-top:10px;
-  } */
   .row{
     padding-left:25px;
     padding-right: 40px;
