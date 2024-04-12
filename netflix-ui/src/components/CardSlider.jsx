@@ -6,6 +6,7 @@ import styled from "styled-components";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Card from "./Card";
 import "./Cardslider.css";
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const CustomNextArrow = (props) => {
   const { onClick } = props;
