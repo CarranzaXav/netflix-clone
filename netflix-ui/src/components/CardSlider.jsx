@@ -78,7 +78,7 @@ export default React.memo(function CardSlider({ data, title }) {
       <Slider {...settings} className="row" >
         {data.map((movie, index) => (
           <div key={index} className="row-item">
-            <Card id="movie" movieData={movie} index={index} key={movie.id} />
+            <Card className="row-card" id="movie" movieData={movie} index={index} key={movie.id} />
           </div>
         ))}
       </Slider>
@@ -122,6 +122,8 @@ const Container = styled.div`
   .row-item{
     margin-top:0;
     padding-block: 0;
+  }
+  .row-card{
     margin-inline: 10px;
   }
   .custom-arrow {
