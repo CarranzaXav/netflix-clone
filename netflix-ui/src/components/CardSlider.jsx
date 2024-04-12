@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Card from "./Card";
+import "./CardSlider.css";
 
 const CustomNextArrow = (props) => {
   const { onClick } = props;
@@ -104,56 +105,5 @@ const Container = styled.div`
 /* .row{
   margin-inline: 10px;
 } */
-  @media(max-width: 1460px){
-    padding:1rem 0;
-  }
-
-  h1 {
-    font-weight: 600;
-    color:#fff;
-    margin-left: 50px;
-    position: relative;
-    margin-bottom:0;
-    z-index: 0;
-  }
-  .row{
-    padding-left:25px;
-    padding-right: 40px;
-    z-index: 0;
-  }
-  .row-item{
-    margin-top:0;
-    padding-block: 0;
-    padding-inline: 10px;
-  }
-  .custom-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 6; 
-    transition: all 0.3s ease;
-    padding-top:45px;
-    padding-bottom:45px;
-    padding-inline:10px;
-  }
-  .custom-arrow:hover {
-    padding-top:45px;
-    padding-bottom:45px;
-    padding-inline:5px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 10%;
-  }
-  .next-arrow {
-    right: 10px;
-  }
-  .prev-arrow {
-    left: 10px;
-  }
+ 
 `;
