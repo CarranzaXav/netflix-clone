@@ -101,9 +101,7 @@ const Container = styled.div`
   z-index: 5;
   margin-inline:10px;
 }
-/* .row{
-  margin-inline: 10px;
-} */
+
   @media(max-width: 1460px){
     padding:1rem 0;
   }
