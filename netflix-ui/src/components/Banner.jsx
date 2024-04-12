@@ -34,9 +34,8 @@ function truncate(str,n) {
 }
 
   return (
-    <header className='banner'
+    <header className='banner' loading='eager'
     style={{
-        // backgroundSize:"auto",
         backgroundImage:`url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
         )`    }}
     > 
