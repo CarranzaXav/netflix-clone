@@ -76,9 +76,9 @@ export default React.memo(function CardSlider({ data, title }) {
   return (
     <Container className="flex column slider-container">
       <h1>{title}</h1>
-      <Slider {...settings} className="row" >
+      <Slider {...settings} class="row" >
         {data.map((movie, index) => (
-          <div key={index} className="row-item">
+          <div key={index} class="row-item">
             <Card id="movie" movieData={movie} index={index} key={movie.id} />
           </div>
         ))}
