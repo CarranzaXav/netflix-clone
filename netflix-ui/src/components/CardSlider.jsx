@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Card from "./Card";
-import "./CardSlider.css";
+import "./Cardslider.css";
 
 const CustomNextArrow = (props) => {
   const { onClick } = props;
