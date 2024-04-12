@@ -122,7 +122,7 @@ const Container = styled.div`
   .row-item{
     margin-top:0;
     padding-block: 0;
-    padding-inline: 10px;
+    margin-inline: 10px;
   }
   .custom-arrow {
     position: absolute;
