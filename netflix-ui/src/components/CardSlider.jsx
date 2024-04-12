@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -157,4 +155,3 @@ const Container = styled.div`
     left: 10px;
   }
 `;
->>>>>>> tmp
