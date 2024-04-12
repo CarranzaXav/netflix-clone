@@ -33,7 +33,6 @@ export default React.memo(function CardSlider({ data, title }) {
     lazyLoad: true,
     draggable:true,
     centerMode:true,
-    // centerPadding: "30px",
     swipeToSlide: true,
     slidesToShow: 7, 
     slidesToScroll: 1,
@@ -45,7 +44,6 @@ export default React.memo(function CardSlider({ data, title }) {
         settings: {
           slidesToShow: 5,
           slidesToScroll: 1,
-          // centerPadding: "30px",
           infinite: true,
           dots: true
         }
@@ -62,7 +60,6 @@ export default React.memo(function CardSlider({ data, title }) {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          // centerPadding: "20px",
         }
       },
       {
@@ -70,7 +67,6 @@ export default React.memo(function CardSlider({ data, title }) {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          // centerPadding: "10px"
         }
       }
     ]
@@ -104,7 +100,9 @@ const Container = styled.div`
   width: 100vw;
   z-index: 5;
 }
-
+.row{
+  margin-inline: 10px;
+}
   @media(max-width: 1460px){
     padding:1rem 0;
   }
