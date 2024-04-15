@@ -104,7 +104,7 @@ const Container = styled.div`
 }
 .slick-track div{
   padding-inline:10px;
-  width: 250px !important;
+  /* width: 250px !important; */
 }
   @media(max-width: 1460px){
     padding:1rem 0;
