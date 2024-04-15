@@ -100,7 +100,7 @@ const Container = styled.div`
   width: 100vw;
   z-index: 5;
 }
-.slick-slide{
+div.slick-slide{
   margin-inline:10px;
 }
   @media(max-width: 1460px){
