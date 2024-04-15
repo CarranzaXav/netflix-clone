@@ -100,8 +100,8 @@ const Container = styled.div`
   width: 100vw;
   z-index: 5;
 }
-div.slick-slide{
-  margin-inline:10px;
+.slick-track div{
+  width: 250px !important;
 }
   @media(max-width: 1460px){
     padding:1rem 0;
