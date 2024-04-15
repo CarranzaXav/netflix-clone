@@ -34,7 +34,7 @@ export default React.memo(function CardSlider({ data, title }) {
     draggable:true,
     centerMode:true,
     swipeToSlide: true,
-    slidesToShow: 7, 
+    slidesToShow: 6, 
     slidesToScroll: 1,
     nextArrow: <CustomNextArrow />,
     prevArrow: <CustomPrevArrow />,
