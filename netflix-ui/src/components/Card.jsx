@@ -137,7 +137,7 @@ const Container = styled.div`
         object-fit: cover;
         border-radius: 0.3rem;
         top: 0;
-        left:2px;
+        left:3px;
         z-index: 5; /* Adjusted z-index */
         position: absolute;
       }
@@ -147,7 +147,7 @@ const Container = styled.div`
         object-fit: cover;
         border-radius: 0.3rem;
         top: 0;
-        left:2px;
+        left:3px;
         z-index: 5; /* Adjusted z-index */
         position: absolute;
       }
