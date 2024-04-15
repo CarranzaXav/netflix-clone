@@ -104,7 +104,6 @@ const Container = styled.div`
 }
 .slick-track div{
   padding-inline:10px;
-  /* width: 250px !important; */
 }
   @media(max-width: 1460px){
     padding:1rem 0;
@@ -121,7 +120,6 @@ const Container = styled.div`
   .row{
     padding-left:25px;
     padding-right: 40px;
-    /* z-index: 0; */
   }
   .row-item{
     margin-top:0;

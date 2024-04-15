@@ -121,7 +121,6 @@ const Container = styled.div`
     width: 22rem;
     position: absolute;
     top: -22vh;
-    /* left: -2vw; */
     padding-inline: 0 !important;
     border-radius: 0.3rem;
     box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
@@ -137,8 +136,8 @@ const Container = styled.div`
         object-fit: cover;
         border-radius: 0.3rem;
         top: 0;
-        left:3px;
-        z-index: 5; /* Adjusted z-index */
+        left:1px;
+        z-index: 5; 
         position: absolute;
       }
       video {
@@ -147,8 +146,8 @@ const Container = styled.div`
         object-fit: cover;
         border-radius: 0.3rem;
         top: 0;
-        left:3px;
-        z-index: 5; /* Adjusted z-index */
+        left:1px;
+        z-index: 5; 
         position: absolute;
       }
     }

@@ -181,7 +181,6 @@ button{
 
 .nav__avatar {
   gap: 1rem;
-  /* position: fixed; */
   right: 20px;
   width: 3rem;
   object-fit: contain;
@@ -215,7 +214,4 @@ background-color: #ddd;
   right:0;
   }
 
-  @media screen and (max-width:980px){
-    
-  }
 `;
