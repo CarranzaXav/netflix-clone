@@ -96,11 +96,12 @@ const Container = styled.div`
   .slick-list {
   position: relative;
   display: block !important;
-  overflow: visible;
+  /* overflow: visible; */
   width: 100vw;
   z-index: 5;
 }
 .slick-track div{
+  margin-inline:10px;
   width: 250px !important;
 }
   @media(max-width: 1460px){
