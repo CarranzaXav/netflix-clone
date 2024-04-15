@@ -92,6 +92,9 @@ const Container = styled.div`
   position: relative;
   padding: 0.8rem 0;
   
+  .slick-container{
+    height:30vh;
+  }
   
   .slick-list {
   position: relative;
@@ -103,7 +106,6 @@ const Container = styled.div`
 .slick-track div{
   /* margin-inline:10px; */
   width: 250px !important;
-  height: 80vh;
 }
   @media(max-width: 1460px){
     padding:1rem 0;
