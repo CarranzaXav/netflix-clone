@@ -35,7 +35,7 @@ export default React.memo(function CardSlider({ data, title }) {
     centerMode:true,
     swipeToSlide: true,
     slidesToShow: 6, 
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     nextArrow: <CustomNextArrow />,
     prevArrow: <CustomPrevArrow />,
     responsive: [
@@ -78,7 +78,7 @@ export default React.memo(function CardSlider({ data, title }) {
       <Slider {...settings} className="row" >
         {data.map((movie, index) => (
           <div key={index} className="row-item">
-            <Card className="row-card" id="movie" movieData={movie} index={index} key={movie.id} />
+            <Card id="movie" movieData={movie} index={index} key={movie.id} />
           </div>
         ))}
       </Slider>
@@ -119,15 +119,13 @@ const Container = styled.div`
   .row{
     padding-left:25px;
     padding-right: 40px;
-    z-index: 0;
+    /* z-index: 0; */
   }
   .row-item{
     margin-top:0;
     padding-block: 0;
   }
-  .row-card{
-    margin-inline: 10px;
-  }
+
   .custom-arrow {
     position: absolute;
     top: 50%;

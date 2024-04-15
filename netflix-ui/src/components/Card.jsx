@@ -119,7 +119,7 @@ const Container = styled.div`
     z-index: 99;
     height: max-content;
     width: 22rem;
-    position: relative;
+    position: absolute;
     top: -18vh;
     left: -2vw;
     border-radius: 0.3rem;
