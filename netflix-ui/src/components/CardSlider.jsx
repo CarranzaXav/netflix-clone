@@ -90,7 +90,7 @@ const Container = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 75%);
   gap: 0.8rem;
   position: relative;
-  padding: 0.8rem 0;
+  /* padding: 0.8rem 0; */
   
   
   .slick-list {
@@ -101,8 +101,8 @@ const Container = styled.div`
   z-index: 5;
 }
 .slick-track div{
-  margin-inline:10px;
-  width: 250px !important;
+  /* margin-inline:10px; */
+  width: 200px !important;
 }
   @media(max-width: 1460px){
     padding:1rem 0;
