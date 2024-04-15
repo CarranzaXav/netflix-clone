@@ -99,9 +99,10 @@ const Container = styled.div`
   overflow: visible;
   width: 100vw;
   z-index: 5;
+}
+.slick-slide{
   margin-inline:10px;
 }
-
   @media(max-width: 1460px){
     padding:1rem 0;
   }
