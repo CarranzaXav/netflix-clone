@@ -92,15 +92,11 @@ const Container = styled.div`
   position: relative;
   padding: 0.8rem 0;
   
-  .slick-container{
-    height:30vh;
-  }
-  
   .slick-list {
   position: relative;
   display: block !important;
   height: 15vh;
-  /* overflow: visible; */
+  overflow: visible;
   width: 100vw;
   z-index: 5;
 }
