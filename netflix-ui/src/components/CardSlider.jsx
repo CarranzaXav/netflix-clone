@@ -90,8 +90,10 @@ const Container = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 75%);
   gap: 0.8rem;
   position: relative;
-  padding: 0.8rem 0;
-  
+  padding-inline:0;
+  padding-top: 0.8rem;
+  padding-bottom:0;   
+
   .slick-list {
   position: relative;
   display: block !important;

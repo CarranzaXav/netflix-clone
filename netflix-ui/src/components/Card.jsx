@@ -121,7 +121,7 @@ const Container = styled.div`
     width: 22rem;
     position: absolute;
     top: -18vh;
-    left: -2vw;
+    /* left: -2vw; */
     border-radius: 0.3rem;
     box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
     background-color: #181818;
